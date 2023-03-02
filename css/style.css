@@ -1,0 +1,280 @@
+.container .row {
+    margin-top: 0;
+}
+
+
+
+/* Menu */
+nav {
+    background-color: white;
+}
+
+.nav-wrapper a {
+    color: black;
+}
+
+.ul_leveling {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ul_leveling a {
+    font-size: 13px;
+    margin-left: -25px;
+}
+
+
+#block_social_icons {
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#block_social_icons div {    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 30px;
+    align-items: flex-end;
+    /*background-color: antiquewhite;  */  
+}
+
+#block_social_icons img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /*align-items: flex-end;*/
+}
+
+.card {
+    /*border: 0;*/
+}
+
+
+/* First block */
+.card-image {
+    width: 100%;
+    height: 100%;
+}
+
+#col_img_1 {
+    /*width: 100%;*/
+}
+
+#img_card_1 {
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-content {
+    width: 100%;
+    /*border: 0;*/
+    display: flex;
+    justify-content: center;           
+}
+
+.card-content .div_block {
+    width: 70%;
+    /*border: 1px solid red;*/
+    margin-left: 20px;
+}
+
+.card-content .p_1 {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 0;
+    display: flex;
+    text-align: justify;
+}
+
+.card-content .p_2 {
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: justify;    
+}
+
+.card-content a {    
+    margin-top: 15px;
+    color: gray;
+    border: rgb(202, 191, 191);
+}
+
+.card-title {
+    
+}
+
+
+/*Second_Third block card*/
+
+#id_div_block {
+    width: 85%;
+}
+
+
+/* Images */
+#block_img_4 .m6 {
+    display: none;
+    background-color: rgb(32, 31, 31);
+}
+
+
+/* Features block */
+
+#div_features {
+    display: flex;
+    justify-content: center;
+}
+
+.headers {
+    display: flex;
+    justify-content: center;
+}
+
+.row_feature {
+    height: 200px;
+}
+
+.row_feature div {
+    height: 200px;   
+}
+
+.col_feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;       
+}
+
+.col_feature div {    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.col_feature > span {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.col_feature div span {
+    text-align: center;
+    margin-top: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.col_feature img {
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+#col_feature_2 div span {
+    margin-top: 25px;
+}
+
+#col_feature_1, #col_feature_2 {    
+    border-right: 2px solid rgb(207, 202, 202);
+    border-bottom: 2px solid rgb(207, 202, 202);    
+}
+
+#col_feature_3 {
+    border-bottom: 2px solid rgb(207, 202, 202);
+}
+
+#col_feature_4, #col_feature_5 {
+    border-right: 2px solid rgb(207, 202, 202);
+}
+
+
+/* Form */
+
+.header_form {
+    margin-top:-35px;
+}
+
+#row_three_textarea {
+    margin-top: 20px;
+}
+
+#row_select_form {
+    margin-top: -40px;
+}
+
+#row_message {
+    margin-top: -10px;
+}
+
+.input-field input {
+    width: 100%;
+}
+
+.input-field label {
+    font-weight: 600;
+    color: black;
+    font-size: 13px;
+}
+
+#radio_form {
+    display: flex;
+    justify-content: flex-start;
+    /*margin-left: -20px; 
+    margin-top: -30px; */  
+}
+
+.names_blocks {
+    font-weight: 600;
+    color: black;
+    font-size: 13px;
+}
+
+#radio_form p {
+    margin-left: 20px;
+}
+
+#radio_form input {
+    
+}
+
+#select_form select {
+    
+}
+
+#textarea_form input {
+    width: 100%;
+    min-height: 70px;
+}
+
+#row_check_but_form {    
+    margin-top: -10px;
+}
+
+#row_check_but_form a {
+    color: gray;
+}
+
+
+
+/* Footer */
+#div_social_icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#div_social_icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#div_span {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
